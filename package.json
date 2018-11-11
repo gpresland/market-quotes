@@ -1,0 +1,35 @@
+{
+  "name": "market-quotes",
+  "version": "0.0.1",
+  "description": "Stock Market Quotes",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:watch": "tsc --watch",
+    "test": "mocha --require ts-node/register src/**/*.spec*.ts",
+    "test:watch": "mocha --require ts-node/register src/**/*.spec*.ts --watch-extensions ts --watch"
+  },
+  "keywords": [
+    "stock",
+    "market",
+    "quote"
+  ],
+  "author": "Greg Presland",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.1.7",
+    "@types/lodash": "^4.14.117",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.2",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6",
+    "typescript-eslint-parser": "^20.1.1"
+  },
+  "license": "MIT"
+}
